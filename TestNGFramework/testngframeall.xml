@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="com.testNGpackage.TestAnnotationsExec"/>
+      <class name="TestNGDemo.OrangeHRMDemo"/>
+      <class name="TESTNG.testng1"/>
+      <class name="TESTNG.testng2"/>
+      <class name="com.testNGpackage.SampletestNGProgram"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Suite2 -->
